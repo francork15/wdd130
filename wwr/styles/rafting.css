@@ -14,7 +14,7 @@
 
 /* Body Styling */
 body {
-    font-family: Roboto 'Merriweather', serif;
+    font-family: 'Merriweather', serif;
     color: var(--primary-color);
     line-height: 1.6;
 }
