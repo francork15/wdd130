@@ -4,22 +4,22 @@
     box-sizing: border-box;
 }
 
-/* Root Variables */
+
 :root {
-    --primary-color: #312F2F; /* Dark Brownish Color */
-    --secondary-color: #84DCCF; /* Light Mint Green */
-    --accent1-color: #A6D9F7; /* Light Blue */
-    --accent2-color: #BCCCE0; /* Light Grayish Blue */
+    --primary-color: #312F2F; 
+    --secondary-color: #84DCCF; 
+    --accent1-color: #A6D9F7; 
+    --accent2-color: #BCCCE0; 
 }
 
-/* Body Styling */
+
 body {
     font-family: 'Merriweather', serif;
     color: var(--primary-color);
     line-height: 1.6;
 }
 
-/* Header Styling */
+
 header {
     background: var(--primary-color);
     color: white;
@@ -43,7 +43,7 @@ header nav a {
     font-weight: bold;
 }
 
-/* Hero Section */
+
 .hero {
     position: relative;
     width: 100%;
@@ -88,7 +88,7 @@ header nav a {
     margin-left: 10px;
 }
 
-/* Section Styling */
+
 section {
     padding: 30px;
     background: var(--accent2-color);
@@ -101,7 +101,7 @@ section h2 {
     margin-bottom: 20px;
 }
 
-/* Adventure Images */
+
 .rafting-images {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -113,7 +113,7 @@ section h2 {
     height: auto;
 }
 
-/* Footer Styling */
+
 footer {
     background: var(--primary-color);
     color: white;
